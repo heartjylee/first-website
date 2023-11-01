@@ -28,6 +28,7 @@
 
 .main {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .text {
@@ -35,6 +36,7 @@
     flex-direction: column;
     margin-right: 30px;
     gap: 10px;
+    flex: auto;
 }
 
 .one {
@@ -48,4 +50,12 @@ button {
     background: #3882f6;
     color: white;
     margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    height: 350px;
+    width: auto;
+    flex: 1 1 auto;
 }
