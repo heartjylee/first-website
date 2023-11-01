@@ -103,5 +103,25 @@ img {
     height: 80px;
     width: 80px;
     border: 3px solid #3882f6;
+}
 
+.third-section {
+    background-color: lightslategray;
+    padding: 70px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.name {
+    display:flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    
 }
