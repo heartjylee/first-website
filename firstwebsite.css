@@ -59,3 +59,37 @@ img {
     width: auto;
     flex: 1 1 auto;
 }
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #1f2937;
+    padding: 30px;
+    margin: 30px 100px;
+}
+
+.random {
+    display: flex;
+    font-size: 36px;
+    font-weight:bolder;
+    margin-bottom: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.group {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.groupone,
+.grouptwo,
+.groupthree,
+.groupfour {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
