@@ -2,7 +2,7 @@
     display:flex;
     flex-direction: column;
     background-color: #1f2937;
-    color: white;
+    color: #F0FAF8;
     padding: 30px 100px;
 }
 
@@ -48,7 +48,7 @@ button {
     width: 80px;
     flex: 0 1 auto;
     background: #3882f6;
-    color: white;
+    color: #F0FAF8;
     margin-top: 10px;
     padding: 5px;
     text-align: center;
@@ -123,5 +123,29 @@ img {
     display:flex;
     justify-content: flex-end;
     font-weight: bold;
-    
+}
+
+.fourth-section {
+    background-color: #3882f6;
+    color: #F0FAF8;
+    margin: 150px;
+    padding: 40px 70px;
+    display: flex;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {
+    font-size: 20pt;
+}
+
+.btwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 150px;
 }
