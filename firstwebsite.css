@@ -1,0 +1,51 @@
+.first-section {
+    display:flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 80px;
+
+}
+
+.logo {
+    font-size: 18pt;
+    font-weight: 800;
+    margin-right: auto;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    gap: 10px;
+}
+
+.one {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+button {
+    width: 80px;
+    flex: 0 1 auto;
+    background: #3882f6;
+    color: white;
+    margin-top: 10px;
+}
