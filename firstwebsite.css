@@ -62,6 +62,8 @@ button {
     margin-top: 10px;
     padding: 5px;
     text-align: center;
+    border-radius: 5px;
+    border: 2px solid white;
 }
 
 img {
@@ -83,13 +85,14 @@ img {
     display: flex;
     font-size: 36px;
     font-weight:bolder;
-    margin-bottom: 16px;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
 }
 
 .group {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -110,9 +113,10 @@ img {
 }
 
 .image {
-    height: 80px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
     border: 3px solid #3882f6;
+    border-radius: 10px;
 }
 
 .third-section {
