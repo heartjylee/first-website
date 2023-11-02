@@ -145,6 +145,7 @@ img {
     margin: 150px;
     padding: 40px 70px;
     display: flex;
+    border-radius: 15px;
 }
 
 .last {
