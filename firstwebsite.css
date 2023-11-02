@@ -1,3 +1,7 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .first-section {
     display:flex;
     flex-direction: column;
@@ -24,6 +28,12 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:#F0FAF8;
+
 }
 
 .main {
